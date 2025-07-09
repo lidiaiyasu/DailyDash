@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <div style="text-align:right; margin-bottom:10px;">
+      <button id="toggle-dark" class="filter-btn" style="float:right;">🌙 Dark Mode</button>
+    </div>
+    <h1>📝 DailyDash </h1>
+    <p class="tagline">Get it done with DailyDash.</p>
+    <div class="input-group">
+      <input type="text" id="todo-input" placeholder="Enter a new task...">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <div class="filter-group">
+      <button id="filter-all" class="filter-btn">All</button>
+      <button id="filter-active" class="filter-btn">Active</button>
+      <button id="filter-completed" class="filter-btn">Completed</button>
+    </div>
+    <ul class="todo-list" id="todo-list"></ul>
+    <div id="empty-message" class="empty-message"></div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
