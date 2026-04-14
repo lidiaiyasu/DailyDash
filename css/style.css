@@ -1,4 +1,4 @@
-/* --- DARK MODE --- */
+/* DARK MODE  */
 .dark-mode .input-group input {
   background: #232931;
   color: #e0e0e0;
@@ -340,7 +340,7 @@ button:focus, .filter-btn:focus, .edit-btn:focus, .complete-btn:focus, input:foc
   border: 0 !important;
 }
 
-/* --- MOBILE RESPONSIVENESS --- */
+/*  MOBILE RESPONSIVENESS  */
 @media (max-width: 600px) {
   .filter-group {
     display: flex;
